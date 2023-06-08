@@ -15,7 +15,7 @@ let
       ${name} = {
         isNormalUser = mkDefault true;
 
-        name = mkDefault cfg.name;
+        name = mkDefault name;
 
         home = mkDefault user.home.path;
         group = mkDefault "users";
