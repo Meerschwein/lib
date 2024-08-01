@@ -1,4 +1,4 @@
-# @NOTE(jakehamilton): The order of these entries matters. We search them
+# NOTE: The order of these entries matters. We search them
 # from start to finish and only match based on whether they appear in a
 # system target. This means that entries like "vm" would match all cases
 # of "vm-bootloader", "vm-no-gui", and "vmware". To avoid this mismatch,
@@ -10,13 +10,14 @@
   "docker"
   "do"
   "gce"
-  "hyperv"
   "install-iso-hyperv"
+  "hyperv"
   "install-iso"
   "iso"
   "kexec"
   "kexec-bundle"
   "kubevirt"
+  "proxmox-lxc"
   "lxc-metadata"
   "lxc"
   "openstack"
